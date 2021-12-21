@@ -1,0 +1,138 @@
+
+
+body{
+    position: relative;
+    height: 100%;
+}
+
+.Titulos-Nosotros{
+
+position: absolute;
+top: 100px;    
+width: 100%;
+text-align: center;
+font-size: 26px;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+h2{
+    font-weight: bold;
+}
+.menu_movile{
+    z-index: 4;
+}
+.main_container{
+    z-index: 3;
+}
+
+.menu_responsive{
+    display: none;
+}
+
+.Texto-Nosotros{
+
+
+    width: 100%;
+    height: 220px;
+    text-align: justify;
+    position: absolute;
+    top: 200px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+   
+
+
+}
+.Img-caja{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 60px;
+  
+}
+
+.Img-caja img{
+    box-shadow: 0 0 0 10px #ffff,
+ 0px 15px 50px;
+}
+
+.Texto-Nosotros_2{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: justify;
+    
+
+}
+
+.Titulo_Dotaciones{
+    
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.flecha_icon, .flecha_icon2{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.Titulo_Dotaciones h2{
+    width: 400px;
+    text-align: center;
+}
+.Texto_Dotaciones{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: justify;
+ margin-bottom: 40px;
+ display: block;
+
+}
+
+.Texto_Dotaciones.active{
+    display: block;
+}
+
+.Img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+}
+.Img-textiles img{
+    
+    width: 270px;
+}
+.Img img{
+    box-shadow: 0 0 0 10px #ffff,
+ 0px 15px 50px;
+}
+
+.Titulo_textiles{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.Titulo_empaques{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Titulo_empaques h2{
+
+
+
+}
