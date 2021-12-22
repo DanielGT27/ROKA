@@ -124,15 +124,25 @@ h2{
     justify-content: center;
 
 }
-.Titulo_empaques{
-    margin-top: 60px;
-    display: flex;
-    justify-content: center;
+
+.d1, .d2{
+    display: block;
     
 }
 
-.Titulo_empaques h2{
-
-
-
+.d1{
+    position: absolute;
+    left: 120px;
+    
 }
+.d2{
+    position: absolute;
+    top: 100px;
+}
+
+
+
+
+
+
+
